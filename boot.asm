@@ -1,7 +1,7 @@
 ORG 0x7C00
 BITS 16
 
-start:
+start: 
   mov si, message
   call print
   jmp $
